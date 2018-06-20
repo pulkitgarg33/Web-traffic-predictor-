@@ -14,3 +14,7 @@ Files used for the first stage will end in '_1'. Files used for the second stage
 train_*.csv - contains traffic data. This a csv file where each row corresponds to a particular article and each column correspond to a particular date. Some entries are missing data. The page names contain the Wikipedia project (e.g. en.wikipedia.org), type of access (e.g. desktop) and type of agent (e.g. spider). In other words, each article name has the following format: 'name_project_access_agent' (e.g. 'AKB48_zh.wikipedia.org_all-access_spider').
 key_*.csv - gives the mapping between the page names and the shortened Id column used for prediction
 sample_submission_*.csv - a submission file showing the correct format
+
+
+# Link for Dataset
+#https://www.kaggle.com/c/web-traffic-time-series-forecasting/data
